@@ -1,7 +1,7 @@
 resource "aws_launch_configuration" "web_server_as" {
     image_id           = "ami-08a0d1e16fc3f61ea"
     instance_type = "t2.micro"
-    key_name = "kpn-pem"
+    key_name = "kpnpem"
 }
    
 
